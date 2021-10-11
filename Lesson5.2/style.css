@@ -1,0 +1,16 @@
+.h1{
+    text-align: center;
+}
+.p{
+    border-left: 9px solid blue;
+    padding: 20px;
+}
+.p:hover{
+    border-left: 9px solid red;
+}
+.st{
+    color: red;
+}
+.str{
+    color: blueviolet;
+}

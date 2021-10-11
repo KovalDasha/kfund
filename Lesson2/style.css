@@ -1,0 +1,22 @@
+*{
+    background-color:rgb(223, 248, 233);
+}
+
+.txt{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    color:blue;
+}
+
+.tet{
+    color:rgb(75, 73, 73);
+    font-size: 15px;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}

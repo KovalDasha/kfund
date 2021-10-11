@@ -1,0 +1,73 @@
+body{
+    background-image:linear-gradient(rgb(255, 242, 168), rgb(161, 255, 242));
+}
+.aa{
+    text-align: center;
+}
+.table{
+    border-collapse: collapse;
+}
+.text{
+    color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    transition: 0.2s;
+}
+.text:hover{
+    color: transparent;
+}
+.text1{
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    transition: 0.3s;
+}
+.text1:hover{
+    font-size: 30px;
+}
+
+/* .table{
+    border-collapse: collapse;
+    background-image: linear-gradient(rgb(142, 255, 227), rgb(255, 236, 152));
+}
+.head{
+    border: 1px solid red;
+    font-size: 30px;
+    padding: 20px;
+}
+.cell{
+    border: 1px solid red;
+    font-size: 30px;
+    padding: 20px;
+} */
+
+
+/*
+p{
+    padding: 0;
+    margin: 0;
+}
+
+.text{
+    color: brown;
+    font-size: 30px;
+    border: 10px solid black;
+    border-style: double;
+    margin-bottom: 40px;
+}
+.text1{
+    color: blue;
+    font-size: 30px;
+    border: 17px solid black;
+    border-style: inset;
+}
+.text2{
+    color: rgb(199, 0, 206);
+    font-size: 30px; 
+    border: 10px solid black;
+}
+*/

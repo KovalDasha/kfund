@@ -1,0 +1,93 @@
+.h2{
+    text-align: center;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.h_red{
+    width: 1170px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+}
+.h_green{
+    width: 1170px;
+    height: 200px;
+    background-color: green;
+    margin: 0 auto;
+}
+.h_blue{
+    width: 1170px;
+    height: 200px;
+    background-color: blue;
+    margin: 0 auto;
+}
+.m_red{
+    display: inline-block;
+    width: 390px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+}
+.m_green{
+    display: inline-block;
+    width: 390px;
+    height: 200px;
+    background-color: green;
+    margin: 0 auto;
+}
+.m_blue{
+    display: inline-block;
+    width: 390px;
+    height: 200px;
+    background-color: blue;
+    margin: 0 auto;
+}
+.m_yellow{
+    width: 1170px;
+    height: 200px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+.m_gray{
+    display: inline-block;
+    width: 585px;
+    height: 200px;
+    background-color: gray;
+    margin: 0 auto;
+}
+.m_black{
+    display: inline-block;
+    width: 585px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+}
+.block{
+    width: 1170px;
+    height: 400px;
+    background-color: greenyellow;
+    margin: 0 auto;
+}
+.b_red{
+    display: inline-block;
+    width: 293px;
+    height: 350px;
+    background-color: red;
+    margin: 25px 45px;
+}
+.b_green{
+    display: inline-block;
+    width: 303px;
+    height: 350px;
+    background-color: green;
+    margin: 25px 45px;
+}
+.b_blue{
+    display: inline-block;
+    width: 293px;
+    height: 350px;
+    background-color: blue;
+    margin: 25px 45px;
+}

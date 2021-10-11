@@ -1,0 +1,47 @@
+.header{
+    text-align: center;
+}
+.span{
+    color: darkseagreen;
+}
+.table{
+    width: 100%;
+}
+.table1{
+    width: 110%;
+    height: 800px;
+    box-shadow: 0px 0px 10px 4px #000000;
+}
+.table2{
+    padding: 50px;
+    margin: 50px;
+    width: 890%;
+    height: 800px;
+    box-shadow: 0px 0px 10px 4px #000000;
+}
+.aa{
+    text-align: center;
+}
+.img{
+    height: 200px;
+    width: 200px;
+    border-radius: 90%;
+}
+.ul{
+    list-style-type: none;
+    text-align: center;
+}
+.ul1{
+    list-style-type: none;    
+}
+.span1{
+    font-family: fantasy;
+}
+.p{
+    color: white;
+    background-color: teal;
+    margin: 600px;
+}
+.p:hover{
+    font-size: 150%;
+}
