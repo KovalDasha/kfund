@@ -1,12 +1,17 @@
-.cart{
+.card{
     height: 200px;
     width: 300px;
+    border: 1px black solid;
+    box-shadow: 4px 5px 14px 3px rgba(0,0,0,0.3);
+    border-radius: 20px 20px 20px 20px;
 }
-.cart_part1{
+.card_part1{
     height: 70px;
     width: 300px;
     border: 1px black solid;
-}
+    border-radius: 20px 21px 0px 0px;
+}*
+
 .text2{
     text-align: center;
 }
