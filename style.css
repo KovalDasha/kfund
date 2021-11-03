@@ -1,23 +1,48 @@
+body{
+    width: 100%;
+    max-width: 1170px;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line{
+    color: black;
+    width: 280px;
+    border: black 1px solid;
+    margin: 10px;
+}
 .card{
-    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    height: 130px;
     width: 300px;
-    border: 1px black solid;
+    border: 1px transparent solid;
     box-shadow: 4px 5px 14px 3px rgba(0,0,0,0.3);
     border-radius: 20px 20px 20px 20px;
 }
 .card_part1{
     height: 70px;
     width: 300px;
-    border: 1px black solid;
-    border-radius: 20px 21px 0px 0px;
+    border: 1px transparent solid;
+    border-radius: 20px 20px 0px 0px;
 }*
 
 .text2{
     text-align: center;
 }
 .button{
+    display: inline;
     border: 1px blue solid;
-    border-radius: 15%;
+    border-radius: 10%;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 150%;
+}
+.les_card{
+    display: inline;
+    font-size: 150%;
+    color: slategrey;
 }
 
 
