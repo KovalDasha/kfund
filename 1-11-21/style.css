@@ -1,0 +1,53 @@
+/*.item{
+    list-style-type: none;
+}
+.item:nth-child(even){
+    font-size: 20px;
+    color: red;
+}
+
+.item:nth-child(odd){
+    font-size: 30px;
+    color: blue;
+}
+
+.item:nth-child(3n+2){
+    font-size: 50px;
+    color: pink;
+}
+
+.item:nth-child(8){
+    color: yellow;
+}
+
+a:visited{
+    display: none;
+    color: transparent;
+}*/
+
+
+/*.element1::after{
+    content: ">";
+    display: inline-block;
+}
+.element1:hover::after{
+    margin-left: 20px;
+}
+.element2::after{
+    width: 30px;
+    height: 30px;
+    content: url(http://www.candicendexter.com/images/hexagon.svg);
+    display: inline-block;
+}
+.element2::before{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    content: url(http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg);
+    display: inline-block;
+    left: 250px;
+    bottom: 6px;
+}
+.element2:hover::after{
+    transform: rotate(45deg);
+}*/

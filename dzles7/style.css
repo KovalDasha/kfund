@@ -1,0 +1,58 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    background-color: rgb(75, 64, 39);
+}
+.main_inner{
+    display: flex;
+}
+.title{
+    text-align: center;
+}
+.all{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.header_inner{
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+.yellow{
+    background-color: yellow;
+    height: 600px;
+    width: 35%;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    width: 721px;
+}
+
+.purple{
+    background-color: purple;
+    height: 300px;
+    width: 100%;
+    margin: 20px;
+}
+.text{ 
+    text-align: center;
+    color: white;
+}
+.aa{
+    display: flex;   
+    flex-direction: column;
+}
+.black1{
+    background-color: black;
+    height: 20%;
+    width: 20%;
+}
+
+
+
+
+
+/*display: inline-block;
+justify-content: flex-start;

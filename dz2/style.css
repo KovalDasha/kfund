@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(255, 162, 146);
+    
+}
+.header{
+    margin: 0 auto;
+    height: 750px;
+    width: 1300px;
+    background-image: url(img/marvel.jpg);   
+}
+.h1{
+    padding: 300px 410px;
+    font-size: 600%;
+    text-shadow:
+    3px 3px 3px black,
+    -3px 3px 3px black;
+    color: white;
+}
+.h2{
+    text-align: center;
+    font-size: 350%;
+}
+.table{
+    margin: 0 auto;
+}
+.td{
+    border: transparent 1px solid;
+    padding: 1px 30px;
+}
+td:hover{
+    background-color: rgb(39, 39, 39);
+}
+.p{
+    text-align: center;
+}
+.img{
+    float: left;
+    padding: 0px 30px;
+}
+.im{
+    padding: 5px 25px;
+    font-size: 230%;
+}
+.p2{
+    color: rgb(17, 0, 255);
+}
