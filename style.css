@@ -7,9 +7,8 @@ body{
     margin-right: auto;
 }
 .line{
-    color: black;
     width: 280px;
-    border: black 1px solid;
+    border: rgb(160, 160, 160) 1px solid;
     margin: 10px;
 }
 .card{
