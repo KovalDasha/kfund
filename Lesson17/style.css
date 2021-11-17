@@ -1,0 +1,10 @@
+/*.row > div{
+    padding: 20px;
+    background-color: grey;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+}*/
+.btn-primary{
+    background-color: yellow;
+    color: #000;
+}
