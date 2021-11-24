@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    background-color: #1D2126;
+    width: 1920px;
+    height: 82px;
+    margin: 0 auto;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 20px;
+    width: 100px;
+}
+.list{
+    display: flex;
+}
+.link-li{
+    margin-left: 25px;
+    color: #A4AEAD;
+    list-style-type: none;
+}
+.link{
+    text-decoration: none;
+    color: #A4AEAD;
+    padding: 8px 11px;
+}
+.link:hover{
+    border:#A4AEAD solid 1px;
+    border-radius: 5px;
+    color: #A4AEAD;
+    padding: 7px 10px;
+    
+}
+.link:active{
+    border:#23B7A4 solid 1px;
+    border-radius: 5px;
+    color: #23B7A4;
+    padding: 7px 10px;
+}
+.banner{
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.5)), url("img/fon.png");
+    width: 100%;
+    height: 660px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.banner_inner{
+    padding-top: 226px;
+}
+.button_banner{
+    padding-top: 30px;
+}
+.btn:hover{
+    border: #23B7A4;
+    background-color: #23B7A4;
+    color: white;
+}
+.about_inner{
+    padding-top: 79px;
+}
