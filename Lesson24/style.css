@@ -1,5 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
-    width: 1440px;
-    border-bottom: 1px solid black;
+    width: 1200px;
+    
     margin: 0 auto;
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid #D0D0D0;
+}
+.header_info{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.ul{
+    border-left: 1px solid #E2E2E2;
+    height: 40px;
+    padding: 0 25px;
+}
+.ul:last-child{
+    border-right: 1px solid #E2E2E2;
+}
+.list_number{
+    display: flex;
+}
+.smart{
+    width: 39px;
+    height: 39px;
+    padding-left: 15px;
+}
+.hi_lang{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.list_money{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.list_icon{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.list_number{
+    display: flex;
+    align-items: center;
+}
+.list_icon_logo{
+    padding: 0 7px;
+}
+.header_button{
+    display: flex;
+}
+.header_button1{
+    display: flex;
+    background-color: #EFF3F6;
+    margin-left: 30px;
+}
+.button_text{
+    padding: 17px;
+}
+.button_icon{
+    background-color: #DD4053;
+    padding: 17px;
+}
+.button_icon2{
+    background-color: #4AD295;
+    padding: 17px;
+}
+.menu_list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 29px;
+}
+.menu_menu{
+    display: flex;
+    margin: 0 30px;
+    align-items: center;
+}
+.menu_polygon{
+    height: 6px;
+    width: 6px;
+    margin-left: 8px;
+}
+.p_menu{
+    color: #616161;
+}
+.p_menu:hover{
+    color: black;
 }
