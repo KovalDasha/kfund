@@ -249,21 +249,106 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url("img/01_Valamar-Dubrovnik-President-Beach-Night_Dean-Tosovic_Valamar_riviera_dd\ 1.png");
     width: 460px;
     height: 450px;
-    padding-top: 20px;
 }
 .hotels_example2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url("img/276398231\ 2.png");
     width: 460px;
     height: 450px;
-    padding-top: 20px;
 }
 .hotels_example3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url("img/c41c4172\ 1.png");
     width: 460px;
     height: 450px;
-    padding-top: 20px;
 }
-.hotels_ecample1_txt{
+.hotels_example_txt{
+    color: #FFFFFF;
+    color: #FFFFFF;
+    width: 195px;
+    border: solid transparent;
+    background: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 3px 0;
+    margin-top: 23px;
+}
+.hotels_example_name1{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 30px;    
+}
+.hotels_example_name2{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 30px;  
+    width: 233px;  
+}
+.hotels_example_name3{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 30px; 
+    width: 281px;
+}
+.hotels_example_mark{
+    margin-top: 133px;
+}
+.tour_title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 100px;
+}
+.tour_title_txt{
+    color: #232323;
+    font-size: 45px;
+}
+.tour_title_img{
+    margin-left: 56px;
+    margin-right: 26px;
+    height: 1px;
+}
+.tour_title_text{
+    padding: 14px 32px;
+    color: #969696;
+    border: 1px solid #969696;
+    border-radius: 2px;
+}
+.tour_card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tour_card_foto1{
+    background-image: url(img/mandarina\ 2.png);
+    width: 327px;
+    height: 250px;
+    margin-top: 40px;
+}
+.tour_card_foto2{
+    background-image: url(img/1491655\ 1.png);
+    width: 327px;
+    height: 250px;
+    margin-top: 40px;
+}
+.tour_card_foto3{
+    background-image: url(img/276398231\ 1.png);
+    width: 327px;
+    height: 250px;
+    margin-top: 40px;
+}
+.tour_card_img1{
+    width: 25px;
+    height: 7px;
+    padding: 20px 12px;
+    border: 1px solid #C6C6C6;
+    border-radius: 50%;
+}
+.tour_card_img2{
+    width: 25px;
+    height: 7px;
+    padding: 20px 12px;
+    border: 1px solid #454545;
+    border-radius: 50%;
+}
+.tour_card_txt{
     color: #FFFFFF;
     color: #FFFFFF;
     width: 195px;
