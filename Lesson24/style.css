@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     width: 1200px;
@@ -273,22 +274,29 @@
 .hotels_example_name1{
     color: #FFFFFF;
     font-size: 20px;
-    margin-top: 30px;    
+    margin-top: 30px; 
+    text-align: center;   
 }
 .hotels_example_name2{
     color: #FFFFFF;
     font-size: 20px;
     margin-top: 30px;  
     width: 233px;  
+    text-align: center;  
 }
 .hotels_example_name3{
     color: #FFFFFF;
     font-size: 20px;
     margin-top: 30px; 
     width: 281px;
+    text-align: center;  
 }
 .hotels_example_mark{
     margin-top: 133px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
 }
 .tour_title{
     display: flex;
@@ -311,28 +319,26 @@
     border: 1px solid #969696;
     border-radius: 2px;
 }
-.tour_card{
+.tour_cards{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 40px;
 }
 .tour_card_foto1{
     background-image: url(img/mandarina\ 2.png);
     width: 327px;
     height: 250px;
-    margin-top: 40px;
 }
 .tour_card_foto2{
     background-image: url(img/1491655\ 1.png);
     width: 327px;
     height: 250px;
-    margin-top: 40px;
 }
 .tour_card_foto3{
     background-image: url(img/276398231\ 1.png);
     width: 327px;
     height: 250px;
-    margin-top: 40px;
 }
 .tour_card_img1{
     width: 25px;
@@ -356,4 +362,120 @@
     background: rgba(0, 0, 0, 0.35);
     text-align: center;
     padding: 3px 0;
+}
+.tour_card{
+    width: 327px;
+    height: 480px;
+    background: #F8F8F8;
+
+}
+.tour_card_info_title{
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 49px;
+}
+.tour_card_info_subtitle{
+    color: #848484;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.tour_card_line{
+    border-bottom: 1px solid #E8E8E8;
+    width: 280px;
+    height: 1px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.tour_card_price_money{
+    color: #DD4053;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 23px;
+}
+.tour_card_price_money_small{
+    font-size: 16px;
+}
+.tour_card_price_subtitle{
+    color: #C9C9C9;
+    font-size: 12px;
+    padding-left: 20px;
+    width: 158px;
+}
+.tour_card_price{
+    display: flex;
+}
+.tour_card_price_right{
+    display: flex;
+    flex-direction: column;
+}
+.tour_card_price_column1{
+    font-size: 12px;
+    color: #3E3E3E;
+    padding-top: 36px;
+    padding-left: 44px;
+}
+.tour_card_price_column2{
+    font-size: 12px;
+    color: #3E3E3E;
+    padding-left: 44px;
+}
+.tour_form{
+    margin-top: 60px;
+}
+.form_info{
+    display: flex;
+}
+.form_wrapper{
+    width: 1040px;
+    height: 140px;
+    background: #F8F8F8;
+    border-top: 6px solid #969696;
+    margin: 0 auto;
+}
+.form_info_top{
+    display: flex;
+    align-items: center;
+}
+.form_info_top_img{
+    width: 15px;
+    height: 15px;
+}
+.form_info_top_txt{
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgba(34, 34, 34, 0.4);
+}
+.form_info_inpu1{
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    width: 103px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #4B4B4B;
+}
+.form_info_inpu2{
+    display: flex;
+    width: 213px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF;
+    border: 1px solid rgba(46, 46, 46, 0.2);
+    border-left: none;
+}
+.form_info_inpu2_txt{
+    font-size: 14px;
+    color: rgba(34, 34, 34, 0.4);
+}
+.form_info_bottom_3_1{
+    background: #FFFFFF;
+}
+.form_info_bottom_3_2{
+    background: #FFFFFF;
+}
+.form_info_bottom_3{
+    display: flex;
 }
